@@ -4585,7 +4585,7 @@ button {
   right: 0;
   margin-top: -5px;
   margin-right: -1.25rem;
-  background: url("/static/img/svg/separator.svg") no-repeat center;
+  background: url("../../static/img/svg/separator.svg") no-repeat center;
 }
 .section-services,
 .section-top {
@@ -4633,7 +4633,7 @@ button {
   content: "";
   width: 0.9375rem;
   height: 0.9375rem;
-  background-image: url("/static/img/svg/001-hexagon.svg");
+  background-image: url("../../static/img/svg/001-hexagon.svg");
 }
 .serction-services__list-services {
   list-style-type: none;
@@ -4647,7 +4647,7 @@ button {
   background: #367fdb;
   position: relative;
   margin-bottom: 4.6875rem;
-  background-image: url("/static/img/sprite/spritesheet.png");
+  background-image: url("../../static/img/sprite/spritesheet.png");
   background-repeat: no-repeat;
   display: block;
 }
