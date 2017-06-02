@@ -1,0 +1,80 @@
+
+
+.top-bar
+	font-size: rem(12px)
+	background-color: #3c5373
+	color $white
+	padding: rem(30px) 6%
+	text-transform: uppercase
+	border-bottom: 4px solid $dark-orange
+	ul
+		background-color: transparent
+	.top-bar-icon
+		max-width: rem(175px)
+		height: auto
+	.menu
+		display: inline-block
+	
+
+.top-bar-left	
+	.top-bar-logo
+		margin-top: rem(-14px)
+		padding: 0
+		display: inline-block
+		vertical-align: top
+
+.top-bar-right
+	margin-top: -3px
+
+.menu>li>a
+	margin-left: rem(25px)
+	color $white
+	&:hover
+		color $dark-orange
+
+.menu .active-item
+	background-color: transparent
+	padding: 0
+	&:hover
+		.block-flat
+			cursor: default
+.block-flat
+	display: inline-block
+	background-color: $dark-orange
+	padding: 0 rem(20px); line-height: rem(40px)
+	height: rem(40px); text-align: middle
+	vertical-align: top
+	color: #1254a5
+
+.block-skew1
+	display: inline-block
+	border-left: rem(22px) solid transparent
+	border-bottom: rem(40px) solid $dark-orange
+	vertical-align: top
+
+.block-skew2
+	display: inline-block
+	border-right: rem(22px) solid transparent
+	border-top: rem(40px) solid $dark-orange
+	vertical-align: top
+
+.menu-right
+	&:hover
+		cursor: default
+
+.top-bar-right>.menu-right>.contact-phone
+	display: inline-block
+	color: $white
+	vertical-align: middle
+	font-size: 1rem
+	&:hover
+		cursor: default
+
+.button.hollow.button--white
+	border-color: $white
+	color: $white
+	margin-bottom: 0
+	margin-left: rem(10px)
+	&:hover
+		border-color: $dark-orange
+		color: $dark-orange

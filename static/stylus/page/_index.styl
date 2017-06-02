@@ -1,0 +1,229 @@
+.section-services,.section-top
+  padding: rem(60px) 0
+  .title-h2
+    color: $blue
+    font-size: rem(24px)
+    font-weight: 600
+    margin-bottom: rem(40px)
+
+.section-top
+  background-color: #d8d8d8
+  &__article
+    margin-top: rem(50px)
+    & img
+      max-width: 100%
+      height: auto
+
+
+.section-services
+  padding-bottom: rem(120px)
+
+.serction-services__article-top
+  & img
+    max-width: 100%
+    height: auto
+    margin: rem(20px 0 50px 0)
+
+.serction-services__list-inform
+  list-style-type: none;
+  margin-bottom: rem(30px)
+  & li
+    padding-left: rem(30px)
+    position: relative
+    font-size: rem(15px)
+    &::before
+      position: absolute
+      left: 0
+      top: 0
+      margin-top: 4px
+      content: ""
+      width: rem(15px)
+      height: rem(15px)
+      background-image: url('/static/img/svg/001-hexagon.svg')
+
+
+
+.serction-services__list-services
+  list-style-type: none
+  position: relative
+  margin-top: rem(72px)
+
+.serction-services__item-services
+  width: rem(84px);
+  height: rem(40px);
+  margin: rem(48px 16px);
+  background: $light-blue;
+  position: relative
+  margin-bottom: rem(75px)
+  background-image: url('/static/img/sprite/spritesheet.png')
+  background-repeat: no-repeat;
+  display: block
+  &:hover
+    cursor: pointer
+    .item-services__popup
+      left: 0
+      opacity: 1
+
+.serction-services__item-services::before,
+.serction-services__item-services::after
+  position: absolute;
+  content: ""
+  border-style: solid;
+  border-color: $light-blue transparent;
+  display: block
+
+.serction-services__item-services::before
+    top: rem(-32px);
+    border-width: rem(0 42px 32px);
+    
+.serction-services__item-services::after
+    bottom: rem(-32px);
+    border-width: rem(32px 42px 0) ;
+
+.serction-services__item-services-1
+  background-position: rem(-7px -18px)
+
+.serction-services__item-services-2
+  background-position: rem(-4px -98px)
+
+.serction-services__item-services-3
+  background-position:rem( 0px -182px)
+
+.serction-services__item-services-4
+  background-position: rem(1px -265px)
+
+.serction-services__item-services-5
+  background-position: rem(-1px -351px)
+
+.serction-services__item-services-6
+  background-position: rem(-9px -434px)
+
+.serction-services__item-services-7
+  background-position: rem(0px -517px)
+
+.serction-services__item-services-8
+  background-position: rem(0px -602px);
+
+.serction-services__item-services-9
+  background-position: rem(2px -683px)
+
+.item-services__popup
+  position: absolute
+  width: 450%
+  max-width: rem(400px)
+  left: rem(-9999px)
+  top: 0
+  transform: translateY(-35%)
+  margin-left: rem(100px)
+  background-color: $light-blue
+  color: #fff
+  padding: rem(15px)
+  border-radius: rem(10px)
+  transition: left, opacity 0.3s ease
+  opacity: 0
+  &::before
+    position: absolute
+    content: ""
+    height: 100%
+    width: rem(20px)
+    left: 0
+    top: 0
+    margin-left: rem(-20px)
+
+.section-works
+  border-top: rem(4px) solid #59a4ff
+  padding-top: rem(40px)
+  .title-h2
+    font-size: rem(16px)
+    color: #fff
+    background-color: $light-blue
+    padding: rem(13px 80px)
+    margin: 0
+    margin-bottom: rem(4px)
+    display: inline-block
+  .thumbnail
+    box-shadow: none;
+    border: none;
+    transition: transform 0.5s ease
+    & img
+      max-width: 100%
+      height: auto
+    &:hover
+      cursor: pointer
+      transform: scale(1.1)
+  .column-block
+    padding: 0 10px
+
+
+.section-works__title
+  position: absolute
+  bottom: 100%
+  right: 50%
+  margin-right: rem(120px)
+  .block-skew1
+    border-left: rem(33px) solid transparent
+    border-bottom: rem(48px) solid $light-blue
+    vertical-align: top
+  .block-skew2
+    border-right: rem(33px) solid transparent
+    border-top: rem(48px) solid $light-blue
+    vertical-align: top
+  .block-skew3
+    position: absolute
+    right: 0
+    margin-right: rem(-8px)
+    margin-top: 0px
+    display: inline-block
+    width: rem(30px);
+    height: rem(48px);
+    background-color: $dark-orange
+    transform: skew(-35deg, 0deg);
+    vertical-align: top
+
+.main-footer
+  background-color: #e7ebf0
+  padding: rem(50px 0 30px 0)
+  color: #74808e
+  & hr
+    border-color: #fff
+
+
+.main-footer__top
+  padding-bottom: rem(25px)
+  .title-h2
+    display: inline-block
+    font-size: rem(14px)
+    color: #4074b5
+    margin-top: rem(25px)
+
+.title-h2-contacts
+  margin-top: rem(55px)
+  display: inline-block
+  margin-top: rem(60px)
+
+.main-footer__list
+  margin-top: rem(15px)
+  & li
+    margin-bottom: 
+      7px
+  & li,a
+    color: #74808e
+  & a
+    &:hover
+      color $dark-orange
+
+.main-footer__contacts
+  text-align: center
+
+.main-footer__contacts-number
+  font-size: rem(28px)
+  .contacts-number--blue
+    color: $blue
+
+.block-contacts
+  margin-top: rem(20px)
+  &__text
+    display: inline-block
+    margin-bottom: rem(18px)
+  .button.hollow
+    display: inline-block

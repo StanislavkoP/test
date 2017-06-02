@@ -1,0 +1,26 @@
+// Breadcrumbs
+
+.breadcrumbs
+	padding-left: .9375rem
+	& li
+		font-size: rem(13px)
+		text-transform: none
+		position: relative
+		margin-right: rem(30px)
+	& a
+		&:hover
+			color: $dark-orange
+		color: $blue
+	.disabled
+		color: #bcc1c9
+
+.breadcrumbs li:not(:last-child):after
+	position: absolute
+	width: rem(10px)
+	height: rem(10px)
+	content: ""
+	top: 50%
+	right: 0
+	margin-top: -5px
+	margin-right: rem(-20px)
+	background: url('/static/img/svg/separator.svg') no-repeat center
